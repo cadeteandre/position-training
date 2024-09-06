@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #1D2025;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: "Monoton";
+    src: url(../fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+/* ========== GENERAL STYLING ========== */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #727577;
+}
+
+a:hover {
+    color: #F1F1F1E1;
+}
+
+h1 {
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    color: #F1F1F1C0;
+}
+
+/* ========== HEADER STYLING START========== */
+
+header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #727577;
+}
+
+.logo-login {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+.logo {
+    font-family: "Monoton";
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 5.6rem;
+}
+
+.login {
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: #727577;
+}
+
+nav ul {
+    display: flex;
+    gap: 6rem;
+    font-size: 1rem;
+    padding-right: 10rem;
+}
+
+/* ========== HEADER STYLING END ========== */
+
+/* ========== MAIN STYLING START ========== */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 15rem 0 0 10rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 0 0 6rem;
+}
+
+.text h1 {
+    width: 24vw;
+}
+
+.images {
+    display: flex;
+    gap: 3rem;
+}
+
+.images div img{
+    width: 13rem;
+    height: 30rem;
+}
+
+.shop {
+    display: flex;
+}
+
+.shop div {
+    width: 30px;
+    border-top: 1px solid #B0805D;
+    margin: 4px 10px
+}
+
+.shop a {
+    color: #B0805D;
+}
+
+.shop a:hover {
+    color: #dfac87;
+}
+
+/* ========== MAIN STYLING END ========== */
+
+/* ========== FOOTER STYLING START ========== */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 16vh;
+    padding: 40px;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 1.7rem;
+    margin-right: 3rem;
+}
+
+.footer-social-media img {
+    width: 16px;
+    height: 16px;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.footer-buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    color: #B0805D;
+    background-color: #1D2025;
+    border-color: #B0805D;
+    border-radius: 50px;
+}
+
+/* ========== FOOTER STYLING END ========== */

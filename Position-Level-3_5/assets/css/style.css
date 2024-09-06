@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Montserrat";
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+/* ========== GENERAL STYLING ========== */
+p {
+    font-size: 20px;
+    width: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ride {
+    background-image: url(../images/div.png);
+    background-position: center;
+    background-size: cover;
+    width: 100nw;
+    height: 87vh;
+}
+/* ========== HEADER STYLING  START ========== */
+
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #00000080;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 14vh;
+    padding: 0 260px 0 50px;
+    }
+
+    .logo {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39.01px;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 110px;
+    }
+
+    nav ul a {
+        font-size: 18.72px;
+        font-weight: 700;
+        line-height: 22.82px;
+    }
+
+/* ========== HEADER STYLING END ========== */
+/* ========== MAIN STYLING  START ========== */
+
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding-top: 150px;
+}
+
+hr {
+    width: 102px;
+    height: 7px;
+    border: 1px;
+    background-color: #333333;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 40vh;
+    padding: 100px 0 44px 108px;
+}
+
+.second-section h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+}
+
+.second-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19.5px;
+    color: #333333;
+}
+
+.sold-out {
+    color: #FF0000;
+}
+
+.available {
+    color: #008000;
+}
+
+/* ========== MAIN STYLING END ========== */
+/* ========== FOOTER STYLING  START ========== */
+/* ========== FOTER STYLING END ========== */
